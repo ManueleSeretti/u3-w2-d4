@@ -30,3 +30,5 @@ const Favourites = () => {
   );
 };
 export default Favourites;
+
+// <Alert variant="">non ci sono aziende preferite</Alert>}

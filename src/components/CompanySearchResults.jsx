@@ -45,8 +45,13 @@ const CompanySearchResults = () => {
             aggiungi azienda ai preferiti
           </Button>
           <Link to="/favourites">
-            <Button className="mt-5" variant="success">
+            <Button className="ms-5" variant="success">
               Aziende Preferite
+            </Button>
+          </Link>
+          <Link to="/">
+            <Button className="ms-5" variant="success">
+              Home
             </Button>
           </Link>
           {companys.map((jobData) => (
